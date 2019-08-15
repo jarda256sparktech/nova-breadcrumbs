@@ -1,5 +1,5 @@
 {
-    "name": "chris-ware/nova-breadcrumbs",
+    "name": "jarda256sparktech/nova-breadcrumbs",
     "description": "A Laravel Nova tool.",
     "keywords": [
         "laravel",
@@ -8,7 +8,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
-        "laravel/nova": ">=2.0.0 <=2.0.11"
+        "laravel/nova": ">=2.0.0 <=2.1.0"
     },
     "autoload": {
         "psr-4": {
@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ChrisWare\\NovaBreadcrumbs\\ToolServiceProvider"
+                "jarda256sparktech\\NovaBreadcrumbs\\ToolServiceProvider"
             ]
         }
     },
